@@ -1,11 +1,13 @@
-import Fetch from "./Fetch";
+import FetchedAxios from "./FetchedAxios";
+//import Fetch from "./Fetch";
 
 function App() {
   return (
     <div>
-      <Fetch />
+      <FetchedAxios/>
     </div>
   );
 }
+//  <Fetch />
 
 export default App;
